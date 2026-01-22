@@ -1,0 +1,4 @@
+CREATE TABLE pais (
+    id_pais INT AUTO_INCREMENT PRIMARY KEY,
+    pais VARCHAR(50) NOT NULL
+);
