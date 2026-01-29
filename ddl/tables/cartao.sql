@@ -4,5 +4,6 @@ CREATE TABLE cartao (
     numero VARCHAR(16) NOT NULL,
     cvv VARCHAR(3) NOT NULL,
     vencimento DATE NOT NULL,
+    limite DECIMAL(6,2) NOT NULL,
     FOREIGN key (cliente_id) REFERENCES cliente(cliente_id)
 );
